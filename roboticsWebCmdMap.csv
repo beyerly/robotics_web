@@ -1,0 +1,9 @@
+ID,Atom Name,serviceID,commandID,local Command,Voice cmd example,Description
+22267,SpeechAgent,SpeechAgent,,say,n/a,Command for text-to-speech
+16896,Drive.Stop,2,1,move -1,stop,Stop robot locomotion
+16897,Drive.Forward,2,2,move 1 $data2,drive forward 1 second,Drive Forward. $data2 contains numer of ms
+16898,Drive.Reverse,2,3,move 0 $data2,turn around,
+16899,Drive.ForwardOnHeading,2,4,turnto $data1; move 1 0,drive northeast,
+16903,Drive.RotateLeftDegrees,2,8,turnto $data1,rotate 90 degrees,
+16904,Drive.RotateRightDegrees,2,9,turnto $data1,turn 270 degrees,
+16907,Servo.PanRelative,5,1,set pantilt $data1 x 90,look left,
